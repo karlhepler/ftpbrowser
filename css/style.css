@@ -1,0 +1,71 @@
+body {
+  padding-top: 70px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#file-list.table.table-hover tbody tr {
+  cursor: pointer;
+}
+#file-list.table.table-hover tbody tr>td:first-of-type {
+  width: 30px;
+}
+#account-list.table.table-hover tbody tr>td:last-of-type {
+  vertical-align: middle;
+}
+
+.glyphicon-folder-open {
+  color: yellow;
+}
+.glyphicon-file {
+  color: blue;
+}
+.glyphicon-lock {
+  color: green;
+}
+.glyphicon-remove {
+  color: red;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.alert {
+  position: fixed;
+  z-index: 7000;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+}

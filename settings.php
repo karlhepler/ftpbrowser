@@ -1,0 +1,18 @@
+<?php
+
+	date_default_timezone_set("America/New_York");
+
+	define('MYSQL_HOST', 'INSERT MYSQL HOST HERE');
+	define('MYSQL_USERNAME', 'INSERT MYSQL USERNAME HERE');
+	define('MYSQL_PASSWORD', 'INSERT MYSQL PASSWORD HERE');
+	define('MYSQL_DB', 'INSERT MYSQL DB NAME HERE');
+
+
+	define('FTP_HOST', 'INSERT FTP HOST HERE');
+	define('FTP_USERNAME', 'INSERT FTP USERNAME HERE');
+	define('FTP_PASSWORD', 'INSERT FTP PASSWORD HERE');
+	
+	define('URL_ROOT', 'INSERT FULL URL ROOT WITH NO TRAILING SLASH'); // Seriously - no trailing slash
+	define('URL_TITLE', 'EVERYBODY NEEDS A NAME');
+
+?>
